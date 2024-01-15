@@ -8,7 +8,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Pasta, eggs, pancetta, Pecorino cheese, black pepper",
           description: "A classic Italian pasta dish",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "7",
         },
         {
@@ -16,7 +16,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Salmon fillet, lemon, garlic, herbs",
           description: "Freshly grilled salmon with herbs",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,8,10",
         },
         {
@@ -24,7 +24,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Pizza dough, tomato sauce, mozzarella cheese, basil",
           description: "A simple and delicious pizza",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "2,9",
         },
         {
@@ -32,7 +32,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Fettuccine, chicken, cream sauce, Parmesan cheese",
           description: "Creamy pasta with grilled chicken",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "4,6",
         },
         {
@@ -41,7 +41,7 @@ exports.seed = function (knex) {
           ingredients:
             "Romaine lettuce, croutons, Parmesan cheese, Caesar dressing",
           description: "Classic Caesar salad",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,2,3",
         },
         {
@@ -49,7 +49,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Ground beef, tortillas, lettuce, salsa, cheese",
           description: "Delicious beef tacos",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "5,7,9",
         },
         {
@@ -57,7 +57,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Pasta, mixed vegetables, garlic, olive oil",
           description: "A fresh and flavorful pasta dish",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "3,5",
         },
         {
@@ -65,7 +65,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Arborio rice, mushrooms, white wine, Parmesan cheese",
           description: "Creamy mushroom risotto",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "6,8",
         },
         {
@@ -73,7 +73,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Pork ribs, BBQ sauce, coleslaw, baked beans",
           description: "Finger-licking good BBQ ribs",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "4,10",
         },
         {
@@ -82,7 +82,7 @@ exports.seed = function (knex) {
           ingredients:
             "Cucumbers, tomatoes, olives, feta cheese, Greek dressing",
           description: "A refreshing Greek salad",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,3,5",
         },
         {
@@ -91,7 +91,7 @@ exports.seed = function (knex) {
           ingredients:
             "Assorted sushi rolls, soy sauce, wasabi, pickled ginger",
           description: "Fresh and delicious sushi",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "2,4,9",
         },
         {
@@ -99,7 +99,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Chicken, curry sauce, rice, naan bread",
           description: "A flavorful chicken curry dish",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,5,7",
         },
         {
@@ -107,7 +107,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Shrimp, garlic, white wine, butter, parsley",
           description: "Garlicky and buttery shrimp scampi",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "2,6,8",
         },
         {
@@ -115,7 +115,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Assorted vegetables, soy sauce, ginger, rice",
           description: "A healthy and tasty stir-fry",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "3,7,9",
         },
         {
@@ -123,7 +123,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Beef patty, cheese, lettuce, tomato, ketchup, bun",
           description: "A classic cheeseburger",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,2,6",
         },
         {
@@ -131,7 +131,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Chicken, bell peppers, onions, tortillas, sour cream",
           description: "Sizzling chicken fajitas",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "4,7,9",
         },
         {
@@ -139,7 +139,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Eggplant, marinara sauce, mozzarella cheese, pasta",
           description: "A hearty and cheesy dish",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "3,5,8",
         },
         {
@@ -147,7 +147,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Rice, shrimp, mussels, squid, saffron, bell peppers",
           description: "A Spanish seafood specialty",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "2,4,6",
         },
         {
@@ -155,7 +155,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Beef, mushrooms, sour cream, onions, egg noodles",
           description: "A creamy and savory beef dish",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,5,8",
         },
         {
@@ -163,7 +163,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Tomatoes, mozzarella cheese, basil, balsamic glaze",
           description: "A simple and delightful Italian salad",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,2,10",
         },
         {
@@ -171,7 +171,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Chicken, cheese, onions, peppers, tortillas",
           description: "A cheesy and savory quesadilla",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "3,5,7",
         },
         {
@@ -179,7 +179,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Assorted vegetables, curry sauce, rice",
           description: "A flavorful and spicy vegetable curry",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,2,8",
         },
         {
@@ -187,7 +187,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Ladyfingers, coffee, mascarpone cheese, cocoa",
           description: "A classic Italian dessert",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "2,4,10",
         },
         {
@@ -196,7 +196,7 @@ exports.seed = function (knex) {
           ingredients:
             "Assorted sushi rolls, soy sauce, wasabi, pickled ginger",
           description: "Fresh and delicious sushi",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "3,6,9",
         },
         {
@@ -204,7 +204,7 @@ exports.seed = function (knex) {
           price: (Math.random() * 100).toFixed(2),
           ingredients: "Lobster, cream, sherry, herbs",
           description: "A rich and creamy lobster soup",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "1,5,7",
         },
         {
@@ -213,7 +213,7 @@ exports.seed = function (knex) {
           ingredients:
             "Grilled meat, pita bread, tomatoes, onions, tzatziki sauce",
           description: "A Greek specialty",
-          image: null,
+          image: "platePlaceholder.jpg",
           categories: "3,6,8",
         },
       ]);
