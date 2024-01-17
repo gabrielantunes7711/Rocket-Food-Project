@@ -13,6 +13,7 @@ Rocket Food é um projeto para colocar em prática todos os conceitos desenvolvi
 - [🍔 Projeto Rocket Food](#-projeto-rocket-food)
 - [📑 Sumário](#-sumário)
 - [🌐 Status do Projeto](#-status-do-projeto)
+- [� Tecnologias usadas](#-tecnologias-usadas)
 - [📝 Sobre](#-sobre)
 - [🔥 Features](#-features)
   - [🖥️ Front-End](#️-front-end)
@@ -20,7 +21,6 @@ Rocket Food é um projeto para colocar em prática todos os conceitos desenvolvi
 - [🛠️ Instalação](#️-instalação)
   - [📥 Baixando o repositório](#-baixando-o-repositório)
   - [🚀 Iniciando o projeto](#-iniciando-o-projeto)
-- [💻 Tecnologias usadas](#-tecnologias-usadas)
 - [👨‍💻 Autor](#-autor)
 
 </br>
@@ -31,6 +31,16 @@ Rocket Food é um projeto para colocar em prática todos os conceitos desenvolvi
 
 </br>
 
+# 💻 Tecnologias usadas
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+
+</br>
+
 # 📝 Sobre
 
 Bem-vindo ao FoodExplorer, meu projeto final do curso Explorer da Rocketseat!
@@ -38,6 +48,8 @@ Bem-vindo ao FoodExplorer, meu projeto final do curso Explorer da Rocketseat!
 O FoodExplorer é uma aplicação completa que abrange tanto o front-end quanto o back-end. No front-end, utilizo React, explorando o Vite para criar uma interface responsiva e intuitiva, proporcionando uma experiência agradável ao usuário. Do layout ao consumo da API, cada detalhe é cuidadosamente planejado e implementado.
 
 No back-end, utilizei Node.js para construir a API do FoodExplorer. Usando Express, SQLite, e JWT, crio rotas e funcionalidades essenciais para a gestão de pratos e usuários. Desde a autenticação até a manipulação de dados.
+
+Já no front-end utilizo do React para criar o SPA e do Redux para persistir informações como pratos favoritos.
 
 O projeto abrange o levantamento de requisitos, criação de repositórios no GitHub, configuração do ambiente, desenvolvimento da interface, criação da API, até o deployment usando Netlify e Render.
 
@@ -134,7 +146,7 @@ Após gerar as tabelas iremos rodar a seed que irá gerar um usuário administra
 **Senha:** 123456
 
 **Usuário Adminstrador**  
-**Login:** admin@email.com  
+**Login:** user@email.com  
 **Senha:** 123456
 
 ---
@@ -168,16 +180,6 @@ npm run dev
 ```
 
 A partir de agora a aplicação já está pronta para ser usada.
-
-</br>
-
-# 💻 Tecnologias usadas
-
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 </br>
 
